@@ -50,6 +50,7 @@ public class UC7SnLPlyr1Plyr2win {
 			System.out.println("Player 1 position is "+p1);
 			}
 			if(instruction1!=ladder) {
+				j++;
 			instruction2 = (int)Math.floor(Math.random()*10)%3 + 1;
 			int p2dice = (int)Math.floor(Math.random()*10)%6 + 1;
 			System.out.println("P2:instruction "+instruction2+",Dice = "+p2dice+",dice count "+j+" time");
@@ -75,7 +76,7 @@ public class UC7SnLPlyr1Plyr2win {
 				p2=p2+0;
 				break;
 			}
-			j++;
+			
 			System.out.println("position is player2 = "+p2);
 			}
 		}	
