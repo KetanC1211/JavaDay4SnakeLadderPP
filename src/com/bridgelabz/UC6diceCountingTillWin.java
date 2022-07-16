@@ -1,6 +1,6 @@
 package com.bridgelabz;
 
-public class UC6diceCountingTillWin {
+public class UC6DiceCountingTillWin {
 	public static final int ladder=1;
 	public static final int snake=2;
 	public static final int noPlay=3;
